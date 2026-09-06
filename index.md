@@ -103,18 +103,16 @@ avoimeen toteutukseen ja siihen, ettei sisältöä säilytetä.
   maksaa vain käytöstään. Korttien generointi maksaa sentin murto-osia,
   litterointi noin kuusi senttiä kymmeneltä minuutilta. Hinta näytetään ennen
   ajoa, ja käyttäjä voi rajata litteroitavan osuuden. Osa kilpailijoista perii
-  kuukausimaksun tai kertamaksun.
-  
- <img src="assets/css/assets/kustannusarvio.png" alt="Podcastin aikavälivalinta ja kustannusarvio" width="400">
-  
-- **Avoin lähdekoodi.** Koko toteutus on tarkistettavissa.
-  
+  kuukausimaksun tai kertamaksun. 
+- **Avoin lähdekoodi.** Koko toteutus on tarkistettavissa. 
 - **Ei käyttäjätiliä eikä tallennettua sisältöä.** Sisältö kulkee OpenAI:n
   rajapinnan kautta, kuten kaikissa vastaavissa työkaluissa, mutta sovellus
   itse ei tallenna siitä mitään. Ero esimerkiksi NotebookLM:ään on
   rakenteellinen: muistikirjamainen toteutus säilyttää lähteet käyttäjän
   tilillä, kun taas tämä työkalu käsittelee lähteen kerran ja unohtaa sen.
 
+   <img src="assets/css/assets/kustannusarvio.png" alt="Podcastin aikavälivalinta ja kustannusarvio" width="400">
+   
 ### Muuta toteutuksesta
 
 - **Laadunvarmistus kahdessa vaiheessa.** Malli tuottaa kaksinkertaisen määrän
