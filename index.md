@@ -105,7 +105,7 @@ avoimeen toteutukseen ja siihen, ettei sisältöä säilytetä.
   ajoa, ja käyttäjä voi rajata litteroitavan osuuden. Osa kilpailijoista perii
   kuukausimaksun tai kertamaksun.
   
-  <img src="assets/podcast-kustannus.png" alt="Podcastin aikavälivalinta ja kustannusarvio ennen litterointia" width="400">
+  <img src="assets/kustannusarvio.png" alt="Podcastin aikavälivalinta ja kustannusarvio ennen litterointia" width="400">
   
 - **Avoin lähdekoodi.** Koko toteutus on tarkistettavissa.
   
