@@ -9,7 +9,7 @@ kielimalliin voi luottaa ja milloin ei.
 
 [Koodi GitHubissa](https://github.com/frostpine3004/anki-generator) ·
 [Tekninen dokumentaatio (englanniksi)](https://github.com/frostpine3004/anki-generator/blob/main/DESIGN.md)
-
+![PDF-lähteen lataus ja sivuvalinta](assets/pdf-lataus.png)
 ---
 
 ## Sisällys
@@ -82,6 +82,7 @@ korttipakan.
   PDF-dokumentteja, podcastien RSS-syötteitä ja vapaata tekstiä.
 - **Korttityyppejä on kaksi:** kysymys ja vastaus -kortti sekä aukkotehtävä,
   jossa käsite on piilotettu lauseesta.
+  ![Generoituja kortteja](assets/kortit.png)
 
 ### Erottautuminen
 
@@ -96,6 +97,7 @@ avoimeen toteutukseen ja siihen, ettei sisältöä säilytetä.
   lähteestä. Jos transkriptia ei ole, jakson äänitiedosto litteroidaan
   Whisperillä, joka on OpenAI:n puheentunnistusmalli. Työkalut, joihin
   tutustuin, käsittelevät dokumentteja ja videoita, mutta eivät ääntä.
+  ![Podcastin aikavälivalinta ja kustannusarvio ennen litterointia](assets/podcast-kustannus.png)
 - **Kustannusarvio ennen ajoa.** Käyttäjä tuo oman rajapinta-avaimensa ja
   maksaa vain käytöstään. Korttien generointi maksaa sentin murto-osia,
   litterointi noin kuusi senttiä kymmeneltä minuutilta. Hinta näytetään ennen
