@@ -9,7 +9,8 @@ kielimalliin voi luottaa ja milloin ei.
 
 [Koodi GitHubissa](https://github.com/frostpine3004/anki-generator) ·
 [Tekninen dokumentaatio (englanniksi)](https://github.com/frostpine3004/anki-generator/blob/main/DESIGN.md)
-![PDF-lähteen lataus ja sivuvalinta](assets/pdf-lataus.png)
+
+<img src="assets/pdf-lataus.png" alt="PDF-lähteen lataus ja sivuvalinta" width="400">
 ---
 
 ## Sisällys
@@ -82,7 +83,8 @@ korttipakan.
   PDF-dokumentteja, podcastien RSS-syötteitä ja vapaata tekstiä.
 - **Korttityyppejä on kaksi:** kysymys ja vastaus -kortti sekä aukkotehtävä,
   jossa käsite on piilotettu lauseesta.
-  ![Generoituja kortteja](assets/kortit.png)
+  
+<img src="assets/kortit.png" alt="Generoituja kortteja" width="400">
 
 ### Erottautuminen
 
@@ -97,13 +99,16 @@ avoimeen toteutukseen ja siihen, ettei sisältöä säilytetä.
   lähteestä. Jos transkriptia ei ole, jakson äänitiedosto litteroidaan
   Whisperillä, joka on OpenAI:n puheentunnistusmalli. Työkalut, joihin
   tutustuin, käsittelevät dokumentteja ja videoita, mutta eivät ääntä.
-  ![Podcastin aikavälivalinta ja kustannusarvio ennen litterointia](assets/podcast-kustannus.png)
 - **Kustannusarvio ennen ajoa.** Käyttäjä tuo oman rajapinta-avaimensa ja
   maksaa vain käytöstään. Korttien generointi maksaa sentin murto-osia,
   litterointi noin kuusi senttiä kymmeneltä minuutilta. Hinta näytetään ennen
   ajoa, ja käyttäjä voi rajata litteroitavan osuuden. Osa kilpailijoista perii
   kuukausimaksun tai kertamaksun.
+  
+  <img src="assets/podcast-kustannus.png" alt="Podcastin aikavälivalinta ja kustannusarvio ennen litterointia" width="400">
+  
 - **Avoin lähdekoodi.** Koko toteutus on tarkistettavissa.
+  
 - **Ei käyttäjätiliä eikä tallennettua sisältöä.** Sisältö kulkee OpenAI:n
   rajapinnan kautta, kuten kaikissa vastaavissa työkaluissa, mutta sovellus
   itse ei tallenna siitä mitään. Ero esimerkiksi NotebookLM:ään on
